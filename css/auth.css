@@ -1,0 +1,35 @@
+/* authen */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+* {
+  font-family: 'Nunito', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+p, ul {
+  margin: 0; }
+
+#authen .row {
+  height: calc(100vh - 170px); }
+
+#auth-header {
+  max-height: 110px; }
+
+#auth-logo {
+  width: 80px;
+  height: 80px; }
+
+#auth-footer {
+  height: 60px;
+  font-size: 13px; }
+  #auth-footer ul {
+    list-style-type: none; }
+    #auth-footer ul li {
+      display: inline-block;
+      padding-right: 15px; }
+
+/* error page */
+#error-page .row {
+  height: calc(100vh - 170px); }
+
+/*# sourceMappingURL=auth.css.map */
